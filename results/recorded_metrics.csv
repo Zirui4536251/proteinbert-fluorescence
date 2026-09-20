@@ -1,0 +1,6 @@
+metric,value
+MSE,0.2868
+RMSE,0.5355
+MAE,0.3868
+R2,0.6978
+Pearson_r,0.8686

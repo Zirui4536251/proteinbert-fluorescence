@@ -1,0 +1,10 @@
+# Dependency inventory, NOT a verified or locked environment.
+# Install ProteinBERT following the upstream instructions; see README.md.
+# Original versions were not recorded. Review docs/method_notes.md first.
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+ipython
+jupyterlab

@@ -1,0 +1,107 @@
+Applied ProteinBERT safe patch for Keras 3.x Adam optimizer.
+21446 training records, 27217 test records.
+
+Fluorescence intensity statistics:
+Training set - Mean: 3.1806, Std: 0.8340
+Test set - Mean: 2.0825, Std: 0.9742
+Perform fluorescence intensity prediction using OutputType(False, 'numeric')
+[2025_10_11-20:06:26] Training set: Filtered out 0 of 19301 (0.0%) records of lengths exceeding 510.
+[2025_10_11-20:06:27] Validation set: Filtered out 0 of 2145 (0.0%) records of lengths exceeding 510.
+[2025_10_11-20:06:27] Training with frozen pretrained layers...
+WARNING:tensorflow:From D:\anaconda3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+Epoch 1/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m169s[0m 269ms/step - loss: 1.0069 - val_loss: 0.6921 - learning_rate: 2.0000e-04
+Epoch 2/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.6668 - val_loss: 0.6705 - learning_rate: 2.0000e-04
+Epoch 3/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m158s[0m 262ms/step - loss: 0.6390 - val_loss: 0.6447 - learning_rate: 2.0000e-04
+Epoch 4/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.6181 - val_loss: 0.6259 - learning_rate: 2.0000e-04
+Epoch 5/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m160s[0m 266ms/step - loss: 0.6024 - val_loss: 0.6033 - learning_rate: 2.0000e-04
+Epoch 6/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m161s[0m 266ms/step - loss: 0.5867 - val_loss: 0.5959 - learning_rate: 2.0000e-04
+Epoch 7/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m160s[0m 264ms/step - loss: 0.5748 - val_loss: 0.5761 - learning_rate: 2.0000e-04
+Epoch 8/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m160s[0m 265ms/step - loss: 0.5661 - val_loss: 0.5650 - learning_rate: 2.0000e-04
+Epoch 9/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5540 - val_loss: 0.5554 - learning_rate: 2.0000e-04
+Epoch 10/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m158s[0m 262ms/step - loss: 0.5479 - val_loss: 0.5500 - learning_rate: 2.0000e-04
+Epoch 11/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m158s[0m 262ms/step - loss: 0.5407 - val_loss: 0.5403 - learning_rate: 2.0000e-04
+Epoch 12/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5364 - val_loss: 0.5354 - learning_rate: 2.0000e-04
+Epoch 13/20
+[1m603/604[0m [32m━━━━━━━━━━━━━━━━━━━[0m[37m━[0m [1m0s[0m 239ms/step - loss: 0.5409  
+Epoch 13: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-05.
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m160s[0m 264ms/step - loss: 0.5265 - val_loss: 0.5433 - learning_rate: 2.0000e-04
+Epoch 14/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5238 - val_loss: 0.5262 - learning_rate: 5.0000e-05
+Epoch 15/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m158s[0m 262ms/step - loss: 0.5245 - val_loss: 0.5225 - learning_rate: 5.0000e-05
+Epoch 16/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5211 - val_loss: 0.5207 - learning_rate: 5.0000e-05
+Epoch 17/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 262ms/step - loss: 0.5217 - val_loss: 0.5194 - learning_rate: 5.0000e-05
+Epoch 18/20
+[1m603/604[0m [32m━━━━━━━━━━━━━━━━━━━[0m[37m━[0m [1m0s[0m 238ms/step - loss: 0.5124  
+Epoch 18: ReduceLROnPlateau reducing learning rate to 1.249999968422344e-05.
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 264ms/step - loss: 0.5197 - val_loss: 0.5218 - learning_rate: 5.0000e-05
+Epoch 19/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5191 - val_loss: 0.5182 - learning_rate: 1.2500e-05
+Epoch 20/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m159s[0m 263ms/step - loss: 0.5188 - val_loss: 0.5172 - learning_rate: 1.2500e-05
+[2025_10_11-20:59:42] Training the entire fine-tuned model...
+Epoch 1/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m484s[0m 786ms/step - loss: 0.5269 - val_loss: 0.4061 - learning_rate: 2.0000e-04
+Epoch 2/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m485s[0m 803ms/step - loss: 0.4002 - val_loss: 0.3578 - learning_rate: 2.0000e-04
+Epoch 3/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m489s[0m 810ms/step - loss: 0.2980 - val_loss: 0.2125 - learning_rate: 2.0000e-04
+Epoch 4/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m490s[0m 811ms/step - loss: 0.2347 - val_loss: 0.1574 - learning_rate: 2.0000e-04
+Epoch 5/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 783ms/step - loss: 0.1997  
+Epoch 5: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-05.
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m490s[0m 811ms/step - loss: 0.1997 - val_loss: 0.1885 - learning_rate: 2.0000e-04
+Epoch 6/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m490s[0m 811ms/step - loss: 0.1267 - val_loss: 0.0991 - learning_rate: 5.0000e-05
+Epoch 7/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 783ms/step - loss: 0.1206  
+Epoch 7: ReduceLROnPlateau reducing learning rate to 1.249999968422344e-05.
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m490s[0m 810ms/step - loss: 0.1189 - val_loss: 0.1466 - learning_rate: 5.0000e-05
+Epoch 8/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m488s[0m 808ms/step - loss: 0.0965 - val_loss: 0.0924 - learning_rate: 1.2500e-05
+Epoch 9/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m490s[0m 812ms/step - loss: 0.0932 - val_loss: 0.0837 - learning_rate: 1.2500e-05
+Epoch 10/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m493s[0m 816ms/step - loss: 0.0880 - val_loss: 0.0798 - learning_rate: 1.2500e-05
+Epoch 11/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 788ms/step - loss: 0.0874  
+Epoch 11: ReduceLROnPlateau reducing learning rate to 1e-05.
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m493s[0m 816ms/step - loss: 0.0873 - val_loss: 0.0877 - learning_rate: 1.2500e-05
+Epoch 12/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m491s[0m 812ms/step - loss: 0.0841 - val_loss: 0.0769 - learning_rate: 1.0000e-05
+Epoch 13/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m491s[0m 814ms/step - loss: 0.0820 - val_loss: 0.0782 - learning_rate: 1.0000e-05
+Epoch 14/20
+[1m604/604[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m491s[0m 813ms/step - loss: 0.0792 - val_loss: 0.0815 - learning_rate: 1.0000e-05
+[2025_10_11-22:54:14] Training on final epochs of sequence length 1024...
+[2025_10_11-22:54:14] Training set: Filtered out 0 of 19301 (0.0%) records of lengths exceeding 1022.
+[2025_10_11-22:54:15] Validation set: Filtered out 0 of 2145 (0.0%) records of lengths exceeding 1022.
+[1m1207/1207[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 805ms/step - loss: 0.1949   
+Epoch 1: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-05.
+[1m1207/1207[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1020s[0m 836ms/step - loss: 0.1823 - val_loss: 0.3842 - learning_rate: 2.0000e-04
+
+Evaluating on test set...
+[1m851/851[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m270s[0m 316ms/step
+
+Test-set performance:
+MSE: 0.2868
+RMSE: 0.5355
+MAE: 0.3868
+R² Score: 0.6978
+Correlation: 0.8686

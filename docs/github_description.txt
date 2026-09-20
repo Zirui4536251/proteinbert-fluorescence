@@ -1,0 +1,1 @@
+ProteinBERT fine-tuning for protein fluorescence prediction from amino-acid sequences, with regression metrics and observed-versus-predicted visualization.
